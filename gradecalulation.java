@@ -16,12 +16,10 @@ class Student_Grade
         for (int i = 0; i < n; i++) {
             System.out.print("Enter the marks for Subject " + (i + 1) + ": ");
             marks[i] = input.nextInt();
-            if(marks[i]<=100)
-            {
+            if(marks[i]<=100){
             total += marks[i]; 
             }
-            else
-            {
+            else{
                 System.out.println("INVALID INPUT");
             }
         }
